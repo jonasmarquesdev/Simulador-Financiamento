@@ -1,0 +1,44 @@
+body {
+    /* background: rgb(4, 4, 45); */
+    background: rgb(105, 105, 209);
+    color: white;
+    font: 11pt Tahoma;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#botaoCalcular {
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#checkbox {
+    padding: 20px;
+}
